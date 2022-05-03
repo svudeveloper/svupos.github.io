@@ -1,4 +1,4 @@
-<?
+<?php
 
 if (empty($_REQUEST["serial"]) || ($_REQUEST["serial"] != "2017"))
 {
@@ -6,3 +6,5 @@ if (empty($_REQUEST["serial"]) || ($_REQUEST["serial"] != "2017"))
     // error message to be displayed in installer
     echo "The serial number is not valid";
 }
+
+?>
